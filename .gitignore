@@ -1,0 +1,29 @@
+node_modules/
+.env
+.DS_Store
+
+# Debug log ของ Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# โฟลเดอร์ที่ได้จากการ Build (ถ้ามี)
+dist/
+build/
+
+# ไฟล์ระบบของ Mac เพิ่มเติม (นอกจาก .DS_Store)
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# สำหรับโปรเจกต์ Python (ถ้ามีสคริปต์รันในโฟลเดอร์เดียวกัน)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# ไฟล์ Logs ของ Database หรือ SQL Server Backup
+*.log
+*.bak
