@@ -45,7 +45,7 @@ app.get('/api/orders', async (req, res) => {
 
 
 // --- 4. เชื่อมต่อฐานข้อมูลและเริ่ม Server ---
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 sequelize.authenticate()
   .then(() => {
