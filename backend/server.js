@@ -62,3 +62,7 @@ sequelize.authenticate()
   .catch(err => {
     console.error('❌ Database connection error:', err);
   });
+
+  app.get('/api', (req, res) => {
+  res.json({ status: "online", message: "CanteenQ Backend is ready!" });
+});
